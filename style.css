@@ -1,0 +1,163 @@
+.main{
+    width: 50%;
+    height: 80vh;
+    background-color: black;
+    padding: 3px 3px 3px 3px;
+    border-radius: 0px 0px 80px 80px;
+    position: relative;
+    bottom: 10px;
+    right: 6px;
+    padding: 6px;
+}
+body{
+    background-color: #25252525;
+}
+.main .logo{
+    height: 150px;
+    width: 150px;
+}
+.main .logo img{
+    height: 150px;
+    width: 250px;
+}
+.main .car .img{
+    height: 300px;
+    width: 300px;
+}
+.main .car{
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+    width: 1000px;
+}
+.main .desc .mustang{
+    position: relative;
+    bottom: 350px;
+    color: white;
+    font-size: 70px;
+}
+.main .desc{
+    width: 50px;
+}
+.main .desc .model{
+    position: relative;
+    left: 1000px;
+    bottom: 520px;
+    font-size: 100px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li{
+    display: inline-flex;
+    margin-left: 15px;
+    
+    font-size: 15px;
+}
+.navbar ul li a{
+    color: aliceblue;
+    transition: 0.5s;
+}
+.navbar{
+    position: relative;
+    bottom: 510px;
+    
+}
+.navbar ul li a:hover{
+    background-color: aliceblue;
+    padding: 0px 15px 0px 15px;
+    border-radius: 50px;
+    color: black;
+
+}
+.info{
+    width: 400px;
+    height: 100px;
+}
+.info h1{
+   position: relative;
+   left: 500px;
+   top: 50px;
+   font-size: 50px;
+}
+.flea img{
+    height: 150px;
+    width: 150px;
+    display: inline;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    margin: 15px;
+    transition: 0.5s;
+}
+.flea a{
+    position: relative;
+    left: -50px;
+    margin-left: 80px;
+    
+    
+}
+.flea a img:hover{
+    transform: scale(1.1);
+}
+.final{
+    background-color: black;
+    width: 100%;
+
+    height: 200px;
+    position: relative;
+    top: 80px;
+    border-radius: 50px 50px 0px 0px;
+}
+.final h2{
+    color: aliceblue;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.final img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 800px;
+    bottom: 80px;
+    filter: 100%;
+    transition: 0.5s;
+    
+}
+.final img:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width :500px){
+    
+    .main{
+        width: 600px;
+    }
+    .main .desc .model{
+        position: relative;
+        left: 900px;
+        
+    }
+    .main .car img{
+        font-size: 40px;
+    }
+    .navbar{
+        bottom: 450px;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    .flea a img{
+        display: inline;
+    }
+    .final{
+        width: 1500px;
+    }
+
+}
+
+
